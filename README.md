@@ -12,4 +12,8 @@ Suivez le lien indiqué, ensuite il faut installer react, je vous donne donc la 
   -npm install --save react-dom
   
 Il vous suffit maintenant d'aller à la racine du projet et de lancer npm start
+
+Je n'ai rien modifié après ma journée de travail sur ce projet, je suis donc d'accord qu'il y aurait plusieurs choses à améliorer (déjà je dois le dire mais un dossier component n'aurait pas été de trop) notamment le responsive, c'était l'une des premières fois que je m'y essayais et je pense que pour un début c'est plutôt correct même si pas parfait.
+Aussi ça me semble important à préciser, je n'avais pas les font ou les images j'ai du me débrouiller avec le fabuleux outil de capture d'écran de windows.
+
 Si vous rencontrez le moindre problème pour lancer le projet, vous pouvez me contacter via mon adresse mail : marvinbell.pro@gmail.com
