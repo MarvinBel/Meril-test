@@ -1,0 +1,98 @@
+.orange-background {
+    z-index: 1;
+    position:absolute;
+    height: 900px;
+    width: 100%;
+    background-color: #f9b131;
+    margin-bottom: 100px;
+}
+
+.orange-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 300px;
+    z-index: 2;
+    height: 830px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 3px 20px rgb(0 0 0 / 0.2);
+}
+
+.checked-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.orange-check-icon {
+    margin: 15px;
+    padding-right: 330px;
+    padding-top: 20px;
+}
+
+.orange-mini-title {
+    position: absolute;
+    color: #010101;
+    font-family: 'Butler', serif;
+    font-size: 20px;
+    margin-top: 45px;
+    margin-left: 80px;
+    z-index: 2;
+}
+
+.orange-mini-text {
+    margin-left: 77px;
+    width: 300px;
+    color: #c6c6cf;
+    text-align: left;
+    font-size: 20px;
+    z-index: 2;
+}
+
+.separation {
+    margin-top: 35px;
+    height: 1px;
+    width: 375px;
+    background-color: #efefed;
+}
+
+.madame-gribouillis {
+    position: absolute;
+    margin-top: -763px;
+    margin-left: 830px;
+}
+
+.shapes {
+    position: absolute;
+    margin-top: -763px;
+    margin-left: 156px;
+}
+
+
+@media screen and (max-width: 1320px) {
+    .madame-gribouillis {
+        display: none;
+    }
+    .orange-container {
+        margin-left: 300px;
+        width: 400px;
+        padding-left: 30px;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .shapes {
+        display: none;
+    }
+    .orange-container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}

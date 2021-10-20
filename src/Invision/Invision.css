@@ -1,0 +1,55 @@
+.invision-background {
+    z-index: 1;
+    height: 900px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+.invision-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 200px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+
+.invision-text-block {
+    font-size: 45px;
+    color: #36475f;
+    font-family: 'Butler', serif;
+    font-weight:500;
+    text-align: left;
+    margin-top: 160px;
+    margin-right: 755px;
+    
+    position: absolute;
+    width: 500px;
+    z-index: 3;
+}
+
+.invision-happiness-image {
+    z-index: 2;
+}
+
+.invision-logo {
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 1320px) {
+    .invision-happiness-image {
+        display: none;
+    }
+    .invision-text-block {
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .invision-text-block {
+        margin-left: -50px;
+        font-size: 30px;
+        width: 300px;
+    }
+}

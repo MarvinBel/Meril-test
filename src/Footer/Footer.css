@@ -1,0 +1,126 @@
+.footer-background {
+    z-index: 1;
+    height: 600px;
+    width: 100%;
+    background-color: #e8ecf1;
+}
+
+.footer-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+.footer-title {
+    font-size: 55px;
+    color: #36475f;
+    font-family: 'Butler', serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+::placeholder {
+    padding-left: 30px;
+    font-family: 'Butler', serif;
+}
+
+.footer-input-cont {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-input {
+    width: 600px;
+    height: 80px;
+    padding: 12px 20px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 3px 20px rgba(0 0 0 / 0.2 0.8);
+}
+
+.footer-input-button {
+    width: 200px;
+    height: 80px;
+    margin-top: 50px;
+    border:none;
+    box-shadow: 0 3px 20px rgb(0 0 0 / 0.2 0.8);
+    background-image: linear-gradient(to right, rgba(131,145,255), rgba(99,176,234));
+    font-family: 'Butler', serif;
+    font-size: 17px;
+    color: white;
+    cursor:pointer;
+}
+
+.footer-links-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 70px;
+    padding-left: 300px;
+    padding-right: 350px;
+}
+
+.footer-mini-title {
+    display:flex;
+    flex-direction: column;
+    justify-content:start;
+    font-size: 15px;
+    color: #36475f;
+    font-family: 'Butler', serif;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer-text-link {
+    margin-top: 10px;
+    color: #bec6d1;
+    margin-bottom: 10px;
+    cursor:pointer;
+    transition: color 0.5s;
+}
+
+.footer-text-link:hover {
+    color: #bec6d19d;
+}
+
+.footer-inside-titles {
+    margin-top: 10px;
+}
+
+.footer-text-copyright {
+    padding-top: 30px;
+    color: #bec6d1;
+    margin-bottom: 30px;
+}
+
+.footer-social-media {
+    display:flex;
+    flex-direction: row;
+    justify-content:start;
+    cursor:pointer;
+}
+
+@media screen and (max-width: 680px) {
+    .footer-links-container {
+        flex-direction: column;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .footer-background {
+        height: 1350px;
+    }
+    .footer-mini-title {
+        margin-top: 20px;
+        margin-left: -15px;
+    }
+}
